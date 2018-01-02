@@ -1,0 +1,183 @@
+body {
+	text-align: center;
+  margin: 0 20px;
+  overflow: hidden;
+}
+ h1{
+    font-family: 'Antic Didone', serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 20px;
+  }
+
+  .accent-color {
+    margin-top: 20px;
+    color: #f08324;
+  }
+
+#game {
+  background-color: rgba(255, 255, 255, 0.8);
+	border: 5px solid #fcf431;
+	margin: auto;
+  z-index: 1 }
+}
+
+.snake-piece {
+  visibility: hidden;
+}
+
+.game-screen {
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 5;
+    width: 100%;
+    top: 0;
+    background: black;
+    height: 900px;
+}
+
+.main-image {
+  height: 125px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sun {
+  height: 125px;
+}
+.image-button-container {
+    position: relative;
+    margin: 0 auto;
+    z-index: 10;
+    top: 100px;
+    background: url(./images/caterpillar-start-screen-tall.png) no-repeat center top fixed;
+    background-size: 1200px 550px ;
+    height: 600px;
+    width: 70%;
+}
+
+
+main {
+  background-image: url(./images/caterpillar-leaf.jpg);
+}
+
+.head-container {
+  float: left;
+  text-align: left;
+}
+.game-screen img {
+  display: block;
+  margin: 100px auto 50px auto;
+  width: 100%;
+  max-width: 500px;
+
+}
+
+.game-score-div {
+  margin-left: 60px;
+}
+
+
+.score-icon {
+  width: 50px;
+}
+
+.score-icon-2 {
+  width: 70px;
+}
+
+.top-score-div {
+  /*float: right;*/
+  /*width: 40%;*/
+  margin-right: 60px;
+}
+
+.big-score {
+  color: #f08324;
+  font-size: 40px;
+}
+.hide {
+ display: none;
+}
+
+.game-buttons {
+  background: #f08324;
+  /*background: url(./images/easy-button.png) no-repeat center top fixed;*/
+  color: white;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px;
+  border: 0;
+}
+
+.game-buttons:hover {
+  background: white;
+  border: 2px solid #f08324;
+  color: #f08324;
+  
+}
+
+ #game-over-screen {
+    background: rgba(244, 127, 50, 0.4);
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    height: 300px;
+    width: 300px;
+    top: 200px;
+}
+
+#game-over-screen {
+  background: #fff;
+  color: #f08324;
+  height: 450px;
+  width: 400px;
+
+}
+
+  
+  #instruction-screen {
+    background: rgba(244, 127, 50, 0.4);
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    color: #fff;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    z-index: 5;
+    height: 250px;
+    width: 250px;
+    top: 150px;
+}
+.start-button {
+  margin-left: 0;
+  
+}
+
+#play-again {
+  margin-left: 0;
+  width: 150px;
+
+}
+
+.end-score, .end-high-score {
+  font-size: 30px;
+  color: #f08324;
+}
+
+.game-over-hed {
+  font-size: 40px;
+}
+
+.accent-2 {
+  color: gray;
+}
